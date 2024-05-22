@@ -1,6 +1,23 @@
-
 {
-    "name":"LE NHU NGOC",
-    "bio":"Welcome to profile for me! I'm Software engineering, Let's dive into the world of programming and build something amazing together!",
-    "content": "As an aspiring IT enthusiast from FPT University, I am keen to ignite my journey in the realm of technology through a valuable training opportunity within your esteemed company. With a solid grounding in computer science fundamentals, I am equipped with enthusiasm, a proactive learning ethos, and a dedicated resolve to both contribute to and flourish within your dynamic team."
+    "name": "LE NHU NGOC",
+    "bio": "Welcome to profile for me! I'm Software engineering, Let's dive into the world of programming and build something amazing together!",
+    "content": "As an aspiring IT enthusiast from FPT University, I am keen to ignite my journey in the realm of technology through a valuable training opportunity within your esteemed company. With a solid grounding in computer science fundamentals, I am equipped with enthusiasm, a proactive learning ethos, and a dedicated resolve to both contribute to and flourish within your dynamic team.",
+    "projects": [
+        {
+            "name": "efuineture",
+            "image": "e43d10bd0d7a370f2eed68eb7791858f.jpg"
+        },
+        {
+            "name": "ToDoList",
+            "image": "1042578.png"
+        },
+        {
+            "name": "TranlateClone",
+            "image": "pexels-irina-iriser-1379636.jpg"
+        },
+        {
+            "name": "NetflixClone",
+            "image": "pexels-pixabay-326055.jpg"
+        }
+    ]
 }
