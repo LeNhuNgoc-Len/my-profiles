@@ -2,14 +2,17 @@
     "name": "LE NHU NGOC",
     "bio": "Welcome to profile for me! I'm Software engineering, Let's dive into the world of programming and build something amazing together!",
     "content": "As an aspiring IT enthusiast from FPT University, I am keen to ignite my journey in the realm of technology through a valuable training opportunity within your esteemed company. With a solid grounding in computer science fundamentals, I am equipped with enthusiasm, a proactive learning ethos, and a dedicated resolve to both contribute to and flourish within your dynamic team.",
+    "education": "SOFTWARE ENGINEERING 2021 - Present \n FPT University, Ho Chi Minh City \n Dynamic IT education with hands-on experiences, collaborative projects, and a global perspective for aspiring professionals.",
     "projects": [
         {
             "name": "efuineture",
-            "image": "e43d10bd0d7a370f2eed68eb7791858f.jpg"
+            "image": "Screenshot 2024-05-22 135505.png",
+            "link": "https://github.com/LeNhuNgoc-Len/swp391-efuineture"
         },
         {
             "name": "ToDoList",
-            "image": "1042578.png"
+            "image": "z5462829123648_3d192261c2b754d0641fcd7299514ccd.jpg",
+            "link": "https://github.com/LeNhuNgoc-Len/Deploy"
         },
         {
             "name": "TranlateClone",
@@ -18,6 +21,32 @@
         {
             "name": "NetflixClone",
             "image": "pexels-pixabay-326055.jpg"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": 90
+        },
+        {
+            "name": "CSS",
+            "level": 85
+        },
+        {
+            "name": "JavaScript",
+            "level": 80
+        },
+        {
+            "name": "React",
+            "level": 75
+        },
+        {
+            "name": "TypeScript",
+            "level": 60
+        },
+        {
+            "name": "Java",
+            "level": 60
         }
     ]
 }
