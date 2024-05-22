@@ -5,10 +5,10 @@ import data from "../data/profile.json";
 
 const Sections = () => {
     return (
-        <div className="lg:py-16">
+        <div className="lg:py-16 ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="space-y-6">
-                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+                    <h1 className="text-[#edaec6] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                             {data.name}
                         </span>
@@ -46,14 +46,24 @@ const Sections = () => {
                 </div>
             </div>
             <div className="my-6 lg:my-12">
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold text-center mt-[15%]">
+                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold text-center mt-[15%] mb-[10px]">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                         About Me
                     </span>
                 </h1>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <Image
+                            src="/images/Ảnh màn hình 2023-07-15 lúc 08.39.25.png"
+                            alt="avatar image"
+                            className="object-cover"
+                            width={440}
+                            height={440}
+                        />
+                
                 <p className="text-[#ADB7BE] text-lg sm:text-xl lg:text-2xl text-center lg:text-left">
                     {data.content}
                 </p>
+                </div>
             </div>
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold text-center mt-[15%]">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
