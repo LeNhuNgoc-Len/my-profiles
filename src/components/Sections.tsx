@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
@@ -35,18 +34,41 @@ const Sections = () => {
           </p>
         </div>
         <div className="flex justify-center lg:justify-end">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full overflow-hidden w-[320px] h-[320px] lg:w-[480px] lg:h-[480px] ">
             <Image
-              src="/images/pexels-pixabay-326055.jpg"
+              src="/images/z4602479205900_1c17e46b34fc815eb564c1f9264663e3.jpg"
               alt="avatar image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              className="object-cover"
+              width={440}
+              height={440}
             />
           </div>
         </div>
+        
+      </div>
+      <div className="my-6 lg:my-12">
+      <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold text-center mt-[15%]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            About Me
+          </span>
+        </h1>
+          <p className="text-[#ADB7BE] text-lg sm:text-xl lg:text-2xl text-center lg:text-left">
+            {data.content}
+          </p>
+      </div>
+
+      <div className="my-6 lg:my-12">
+      <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold text-center mt-[15%]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            My Project
+          </span>
+        </h1>
+          <p className="text-[#ADB7BE] text-lg sm:text-xl lg:text-2xl text-center lg:text-left">
+            {data.content}
+          </p>
       </div>
     </div>
+    
   );
 };
 
